@@ -1,0 +1,19 @@
+title: "Work title"
+title_ja: ""
+category: "characters"
+subjects:
+  - "reimu-hakurei"
+artists:
+  - "github-handle"
+status: "complete"
+canvas:
+  width: 0
+  height: 0
+charset: "ascii"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+license: "CC-BY-NC-SA-4.0"
+notes: ""

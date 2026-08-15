@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.txt text eol=lf diff
+*.ans text eol=lf diff
+*.png binary
+*.gif binary

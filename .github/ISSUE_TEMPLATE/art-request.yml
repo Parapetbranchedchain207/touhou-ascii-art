@@ -1,0 +1,35 @@
+name: Artwork proposal
+description: Propose a character, location, scene, danmaku pattern, or object
+title: "[Idea] "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Character
+        - Location
+        - Scene
+        - Danmaku
+        - Object
+    validations:
+      required: true
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      placeholder: "For example: Hakurei Shrine on a snowy night"
+    validations:
+      required: true
+  - type: textarea
+    id: concept
+    attributes:
+      label: Concept
+      description: Describe the composition, dimensions, character style, or animation behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Sources and references
+      description: List any related title, spell card, scene, or visual reference.
