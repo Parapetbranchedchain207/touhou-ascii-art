@@ -5,3 +5,9 @@ Thumbs.db
 
 # Local render output; curated previews belong inside a work's previews/ folder.
 .render/
+
+# Local inbox for uncurated artwork. Curated copies live under art/.
+/workspace/
+
+# Generated GitHub Pages output.
+/_site/

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A searchable gallery of Touhou Project ASCII art, drawn with Unicode Braille and plain text.">
+    <meta name="theme-color" content="#b51838">
+    <title>Gensokyo Text Archive · Touhou ASCII Art</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <header class="hero">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="./" aria-label="Gensokyo Text Archive home">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="27"></circle>
+            <path d="M15 24h34M20 29h24M23 29v21M41 29v21M17 50h30M27 17h10l3 7H24z"></path>
+          </svg>
+          <span>Gensokyo Text Archive</span>
+        </a>
+        <a class="nav-link" href="https://github.com/N0zoM1z0/touhou-ascii-art">View on GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <div class="hero-content shell">
+        <div class="hero-copy">
+          <p class="eyebrow">An unofficial Touhou Project fan archive</p>
+          <h1>Gensokyo,<br><em>drawn in text.</em></h1>
+          <p class="hero-intro">Characters and spellbound moments shaped from spaces, symbols, and thousands of tiny Braille stars.</p>
+          <a class="scroll-link" href="#gallery">Enter the archive <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="moon-seal" aria-hidden="true">
+          <span class="moon-ring"></span>
+          <span class="seal-mark">Gensokyo</span>
+          <i class="bullet bullet-one"></i>
+          <i class="bullet bullet-two"></i>
+          <i class="bullet bullet-three"></i>
+        </div>
+      </div>
+      <div class="hero-rule" aria-hidden="true"></div>
+    </header>
+
+    <main id="gallery" class="archive shell">
+      <section class="archive-heading" aria-labelledby="archive-title">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2 id="archive-title">Character gallery</h2>
+        </div>
+        <p class="archive-summary"><strong id="work-count">—</strong> original works across <strong id="character-count">—</strong> residents of Gensokyo.</p>
+      </section>
+
+      <section class="search-panel" aria-label="Gallery controls">
+        <label class="search-box" for="search-input">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+          <span class="sr-only">Search artwork</span>
+          <input id="search-input" type="search" placeholder="Search characters, titles, or motifs…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <div id="character-filters" class="filters" aria-label="Filter by character"></div>
+      </section>
+
+      <p id="results-label" class="results-label" aria-live="polite"></p>
+      <section id="gallery-grid" class="gallery-grid" aria-label="ASCII artwork"></section>
+
+      <div id="empty-state" class="empty-state" hidden>
+        <span aria-hidden="true">✦</span>
+        <h3>No spell found</h3>
+        <p>Try another title, character, or motif.</p>
+        <button id="clear-search" type="button">Clear the search</button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="shell footer-inner">
+        <p><span aria-hidden="true">☯</span> Made by fans, one glyph at a time.</p>
+        <p>Touhou Project belongs to Team Shanghai Alice. This archive is unofficial.</p>
+      </div>
+    </footer>
+
+    <template id="art-card-template">
+      <article class="art-card">
+        <div class="art-window">
+          <span class="corner-mark" aria-hidden="true">✦</span>
+          <pre class="art-preview" aria-hidden="true">Loading the spell…</pre>
+        </div>
+        <div class="card-body">
+          <div class="card-heading">
+            <div>
+              <p class="card-character"></p>
+              <h3 class="card-title"></h3>
+            </div>
+            <span class="open-mark" aria-hidden="true">↗</span>
+          </div>
+          <p class="card-description"></p>
+          <div class="card-meta">
+            <span class="card-canvas"></span>
+            <span>Unicode Braille</span>
+          </div>
+        </div>
+        <button class="card-open" type="button"><span class="sr-only">Open artwork</span></button>
+      </article>
+    </template>
+
+    <dialog id="viewer" class="viewer">
+      <div class="viewer-shell">
+        <header class="viewer-header">
+          <div>
+            <p id="viewer-character" class="eyebrow"></p>
+            <h2 id="viewer-title"></h2>
+          </div>
+          <button id="viewer-close" class="icon-button" type="button" aria-label="Close artwork viewer">×</button>
+        </header>
+        <div class="viewer-toolbar">
+          <p id="viewer-details"></p>
+          <div class="viewer-actions">
+            <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+            <span id="zoom-label">100%</span>
+            <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+            <button id="copy-art" type="button">Copy</button>
+            <a id="download-art" href="" download>Download</a>
+            <a id="source-art" href="" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
+        </div>
+        <div class="viewer-canvas">
+          <pre id="viewer-art"></pre>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

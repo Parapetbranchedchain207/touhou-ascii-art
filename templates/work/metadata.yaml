@@ -1,5 +1,5 @@
 title: "Work title"
-title_ja: ""
+description: "A short, searchable description of the work."
 category: "characters"
 subjects:
   - "reimu-hakurei"
@@ -15,5 +15,7 @@ animated: false
 source:
   type: "original"
   reference: ""
+tags:
+  - "line-art"
 license: "CC-BY-NC-SA-4.0"
 notes: ""

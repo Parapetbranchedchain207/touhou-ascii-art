@@ -1,0 +1,26 @@
+title: "Broom Flight"
+description: "A Unicode Braille line-art composition of Marisa Kirisame flying with her broom."
+category: "characters"
+subjects:
+  - "marisa-kirisame"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 117
+  height: 70
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "marisa-kirisame"
+  - "witch"
+  - "broom"
+  - "flight"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""

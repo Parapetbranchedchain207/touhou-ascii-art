@@ -12,6 +12,8 @@ An unofficial fan repository for creating and collecting Touhou Project ASCII ar
 
 The collection is not limited to character portraits. It welcomes locations such as Hakurei Shrine and Scarlet Devil Mansion, narrative scenes, original or homage-based danmaku fragments, and small objects or symbols. Plain text that renders directly in a monospaced terminal is the primary format; ANSI-colored variants and rendered previews are optional extras.
 
+**[Explore the searchable web gallery →](https://n0zom1z0.github.io/touhou-ascii-art/)**
+
 ## Categories
 
 | Directory | Contents | Examples |
@@ -46,7 +48,20 @@ Works in `scenes` and `danmaku` use the work slug directly and do not need a sub
 4. Check it in a monospaced terminal for alignment and accidental clipping.
 5. Open a pull request.
 
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full workflow and checklist. You can also open an [artwork proposal](../../issues/new?template=art-request.yml) to discuss an idea first.
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full workflow and checklist. You can also open an [artwork proposal](https://github.com/N0zoM1z0/touhou-ascii-art/issues/new?template=art-request.yml) to discuss an idea first.
+
+## Website
+
+The gallery is a dependency-free static site generated from each work's `metadata.yaml`. Search, character filters, full-screen viewing, zoom, copy, download, and shareable artwork URLs all work in the browser.
+
+Build and preview it locally:
+
+```sh
+ruby scripts/build_site.rb _site
+python3 -m http.server --directory _site 8000
+```
+
+Then open `http://localhost:8000`. Pushes affecting artwork or website files automatically rebuild and deploy the gallery through GitHub Pages. Do not edit `_site/`; it is generated output.
 
 ## Display recommendations
 

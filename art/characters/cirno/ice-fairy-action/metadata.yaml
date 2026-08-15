@@ -1,0 +1,25 @@
+title: "Ice Fairy in Action"
+description: "An action-oriented Unicode Braille line-art composition of Cirno."
+category: "characters"
+subjects:
+  - "cirno"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 113
+  height: 72
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "cirno"
+  - "ice-fairy"
+  - "action"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""

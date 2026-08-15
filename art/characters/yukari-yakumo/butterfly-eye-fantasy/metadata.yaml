@@ -1,0 +1,27 @@
+title: "Butterfly-Eye Fantasy"
+description: "A surreal Unicode Braille line-art composition of Yukari Yakumo with butterfly and eye motifs."
+category: "characters"
+subjects:
+  - "yukari-yakumo"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 116
+  height: 74
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "yukari-yakumo"
+  - "gap-youkai"
+  - "butterfly"
+  - "eye"
+  - "fantasy"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""

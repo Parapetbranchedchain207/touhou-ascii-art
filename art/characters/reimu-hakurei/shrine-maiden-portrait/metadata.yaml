@@ -1,0 +1,25 @@
+title: "Shrine Maiden Portrait"
+description: "A Unicode Braille line-art portrait of Reimu Hakurei."
+category: "characters"
+subjects:
+  - "reimu-hakurei"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 112
+  height: 72
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "reimu-hakurei"
+  - "shrine-maiden"
+  - "portrait"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""

@@ -1,8 +1,8 @@
 # Work title
 
-```text
-Paste the contents of art.txt here for a direct GitHub preview.
-```
+[Open the artwork](art.txt)
+
+<!-- A small fenced preview is optional. Avoid duplicating large artwork here. -->
 
 - Artist: `@github-handle`
 - Subjects:

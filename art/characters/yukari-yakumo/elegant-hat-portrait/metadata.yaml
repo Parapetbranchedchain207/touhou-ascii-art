@@ -1,0 +1,26 @@
+title: "Elegant Hat Portrait"
+description: "An elegant Unicode Braille line-art portrait of Yukari Yakumo in her distinctive hat."
+category: "characters"
+subjects:
+  - "yukari-yakumo"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 115
+  height: 72
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "yukari-yakumo"
+  - "gap-youkai"
+  - "hat"
+  - "portrait"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""

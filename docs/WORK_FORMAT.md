@@ -32,7 +32,7 @@ The primary uncolored UTF-8 artwork, ready to display directly. Use LF line endi
 
 ### `README.md`
 
-Display the work directly in a fenced code block and record:
+Link to `art.txt` so the source is one click away. A small fenced preview is optional, but avoid duplicating a large artwork in Markdown. Record:
 
 - title and subjects;
 - artist and co-artists;
@@ -43,7 +43,7 @@ Display the work directly in a fenced code block and record:
 
 ### `metadata.yaml`
 
-Use the fields in the provided template. `width` is the display-column width of the longest line and `height` is the total line count. Full-width characters usually occupy two columns, so measure them in the intended terminal environment.
+Use the fields in the provided template. `description` and `tags` feed the website search, so keep them concise and descriptive. `width` is the display-column width of the longest line and `height` is the total line count. Full-width characters usually occupy two columns, so measure them in the intended terminal environment.
 
 Recommended `source.type` values:
 

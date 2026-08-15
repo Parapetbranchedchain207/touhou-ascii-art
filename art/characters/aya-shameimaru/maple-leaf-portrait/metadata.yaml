@@ -1,0 +1,27 @@
+title: "Maple Leaf Portrait"
+description: "An autumn-themed Unicode Braille line-art portrait of Aya Shameimaru."
+category: "characters"
+subjects:
+  - "aya-shameimaru"
+artists:
+  - "N0zoM1z0"
+status: "complete"
+canvas:
+  width: 104
+  height: 68
+charset: "unicode-braille"
+color_mode: "plain"
+animated: false
+source:
+  type: "original"
+  reference: ""
+tags:
+  - "aya-shameimaru"
+  - "tengu"
+  - "maple-leaf"
+  - "autumn"
+  - "portrait"
+  - "braille"
+  - "line-art"
+license: "CC-BY-NC-SA-4.0"
+notes: ""
